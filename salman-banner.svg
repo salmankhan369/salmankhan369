@@ -186,10 +186,10 @@
       <text x="834" y="227" fill="#F472B6">return <tspan fill="#E2E8F0">(</tspan></text>
 
       <text x="790" y="250" fill="#475569">06</text>
-      <text x="850" y="250" fill="#38BDF8"><CloudInfra <tspan fill="#A78BFA">role</tspan>=<tspan fill="#34D399">"DevOps Engineer"</tspan>></text>
+      <text x="850" y="250" fill="#38BDF8">[CloudInfra <tspan fill="#A78BFA">role</tspan>=<tspan fill="#34D399">"DevOps Engineer"</tspan>]</text>
 
       <text x="790" y="273" fill="#475569">07</text>
-      <text x="866" y="273" fill="#38BDF8"><Pipeline></text>
+      <text x="866" y="273" fill="#38BDF8">[Pipeline]</text>
 
       <text x="790" y="296" fill="#475569">08</text>
       <text x="882" y="296" fill="#CBD5E1">Automating AWS + EKS clusters</text>
@@ -198,13 +198,13 @@
       <text x="882" y="319" fill="#CBD5E1">with GitOps + zero downtime</text>
 
       <text x="790" y="342" fill="#475569">10</text>
-      <text x="866" y="342" fill="#38BDF8"></Pipeline></text>
+      <text x="866" y="342" fill="#38BDF8">[/Pipeline]</text>
 
       <text x="790" y="365" fill="#475569">11</text>
-      <text x="866" y="365" fill="#38BDF8"><Stack <tspan fill="#A78BFA">exp</tspan>=<tspan fill="#FBBF24">"4+ Yrs"</tspan> <tspan fill="#A78BFA">apps</tspan>=<tspan fill="#FBBF24">"18+"</tspan> /></text>
+      <text x="866" y="365" fill="#38BDF8">[Stack <tspan fill="#A78BFA">exp</tspan>=<tspan fill="#FBBF24">"4+ Yrs"</tspan> <tspan fill="#A78BFA">apps</tspan>=<tspan fill="#FBBF24">"18+"</tspan> /]</text>
 
       <text x="790" y="388" fill="#475569">12</text>
-      <text x="850" y="388" fill="#38BDF8"></CloudInfra></text>
+      <text x="850" y="388" fill="#38BDF8">[/CloudInfra]</text>
 
       <text x="790" y="411" fill="#475569">13</text>
       <text x="834" y="411" fill="#E2E8F0">);</text>
