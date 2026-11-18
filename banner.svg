@@ -90,7 +90,7 @@
 
   <g>
     <rect x="24" y="72" width="375" height="445" rx="18" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1.5" />
-    <text x="48" y="114" class="font-sans" fill="#94A3B8" font-size="17">Hello, I am 👋</text>
+    <text x="48" y="114" class="font-sans" fill="#94A3B8" font-size="17">Hello, I am</text>
     <text x="48" y="168" class="font-sans" fill="url(#nameGrad)" font-size="44" font-weight="900" letter-spacing="1">SALMAN</text>
     <text x="48" y="216" class="font-sans" fill="url(#nameGrad)" font-size="44" font-weight="900" letter-spacing="1">KHAN</text>
     <text x="48" y="246" class="font-mono" fill="#38BDF8" font-size="14" font-weight="bold" letter-spacing="1.5">DEVOPS + CLOUD ENGINEER</text>
@@ -139,16 +139,16 @@
       <text x="585" y="334" text-anchor="middle" class="font-mono" fill="#F472B6" font-size="12" font-weight="bold">+ SCALE</text>
 
       <rect x="440" y="175" width="84" height="28" rx="8" fill="#1E293B" stroke="#38BDF8" stroke-width="1.2" />
-      <text x="482" y="193" text-anchor="middle" class="font-mono" fill="#38BDF8" font-size="11" font-weight="bold">🐳 DOCKER</text>
+      <text x="482" y="193" text-anchor="middle" class="font-mono" fill="#38BDF8" font-size="11" font-weight="bold">DOCKER</text>
 
       <rect x="645" y="175" width="88" height="28" rx="8" fill="#1E293B" stroke="#818CF8" stroke-width="1.2" />
-      <text x="689" y="193" text-anchor="middle" class="font-mono" fill="#A5B4FC" font-size="11" font-weight="bold">☸️ K8S</text>
+      <text x="689" y="193" text-anchor="middle" class="font-mono" fill="#A5B4FC" font-size="11" font-weight="bold">K8S</text>
 
       <rect x="435" y="405" width="88" height="28" rx="8" fill="#1E293B" stroke="#F59E0B" stroke-width="1.2" />
-      <text x="479" y="423" text-anchor="middle" class="font-mono" fill="#FBBF24" font-size="11" font-weight="bold">☁️ AWS</text>
+      <text x="479" y="423" text-anchor="middle" class="font-mono" fill="#FBBF24" font-size="11" font-weight="bold">AWS</text>
 
       <rect x="640" y="405" width="96" height="28" rx="8" fill="#1E293B" stroke="#A855F7" stroke-width="1.2" />
-      <text x="688" y="423" text-anchor="middle" class="font-mono" fill="#D8B4FE" font-size="11" font-weight="bold">⚙️ CI/CD</text>
+      <text x="688" y="423" text-anchor="middle" class="font-mono" fill="#D8B4FE" font-size="11" font-weight="bold">CI/CD</text>
     </g>
 
     <line x1="482" y1="203" x2="535" y2="245" stroke="#38BDF8" stroke-width="1.5" class="flow-line" />
@@ -221,41 +221,92 @@
     <text x="1156" y="502" text-anchor="end" class="font-mono" fill="#64748B" font-size="10">TERMINAL</text>
   </g>
 
+  <!-- Bottom Left: Technologies I Work With (Custom Vector Icons) -->
   <g>
     <rect x="24" y="532" width="545" height="152" rx="18" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1.5" />
     <text x="44" y="558" class="font-mono" fill="#94A3B8" font-size="11" font-weight="bold" letter-spacing="1">TECHNOLOGIES I WORK WITH</text>
 
     <g class="font-mono" font-size="9.5" text-anchor="middle">
+      <!-- 1. Docker Vector -->
       <rect x="40" y="572" width="60" height="94" rx="10" fill="#0F172A" stroke="#38BDF8" stroke-width="1" />
-      <text x="70" y="612" font-size="22">🐳</text>
+      <g transform="translate(53, 586)">
+        <rect x="6" y="12" width="5" height="5" rx="1" fill="#38BDF8" />
+        <rect x="12" y="12" width="5" height="5" rx="1" fill="#38BDF8" />
+        <rect x="18" y="12" width="5" height="5" rx="1" fill="#38BDF8" />
+        <rect x="12" y="6" width="5" height="5" rx="1" fill="#38BDF8" />
+        <rect x="18" y="6" width="5" height="5" rx="1" fill="#38BDF8" />
+        <path d="M2 19 H29 C29 26 23 30 14 30 C6 30 2 25 2 19 Z" fill="#0284C7" />
+        <path d="M29 19 C32 16 34 17 33 20 C32 22 30 22 29 21 Z" fill="#38BDF8" />
+      </g>
       <text x="70" y="648" fill="#E2E8F0" font-weight="bold">Docker</text>
 
+      <!-- 2. Kubernetes Vector -->
       <rect x="106" y="572" width="60" height="94" rx="10" fill="#0F172A" stroke="#6366F1" stroke-width="1" />
-      <text x="136" y="612" font-size="22">☸️</text>
+      <g transform="translate(136, 604)">
+        <polygon points="0,-16 14,-8 14,8 0,16 -14,8 -14,-8" fill="#326CE5" />
+        <circle cx="0" cy="0" r="6" fill="none" stroke="#FFFFFF" stroke-width="2" />
+        <line x1="0" y1="-11" x2="0" y2="11" stroke="#FFFFFF" stroke-width="1.8" />
+        <line x1="-10" y1="-5" x2="10" y2="5" stroke="#FFFFFF" stroke-width="1.8" />
+        <line x1="-10" y1="5" x2="10" y2="-5" stroke="#FFFFFF" stroke-width="1.8" />
+      </g>
       <text x="136" y="648" fill="#E2E8F0" font-weight="bold">K8s</text>
 
+      <!-- 3. AWS Vector -->
       <rect x="172" y="572" width="60" height="94" rx="10" fill="#0F172A" stroke="#F59E0B" stroke-width="1" />
-      <text x="202" y="612" font-size="22">☁️</text>
+      <g transform="translate(184, 588)">
+        <path d="M9 21 H28 C32 21 35 18 35 14 C35 10 32 7 28 7 C27 3 23 1 19 1 C14 1 10 4 9 9 C5 9 2 12 2 15 C2 19 5 21 9 21 Z" fill="#F59E0B" />
+        <path d="M6 25 Q18 31 30 25" fill="none" stroke="#FBBF24" stroke-width="2.2" stroke-linecap="round" />
+      </g>
       <text x="202" y="648" fill="#E2E8F0" font-weight="bold">AWS</text>
 
+      <!-- 4. Terraform Vector -->
       <rect x="238" y="572" width="60" height="94" rx="10" fill="#0F172A" stroke="#A855F7" stroke-width="1" />
-      <text x="268" y="612" font-size="22">🏗️</text>
+      <g transform="translate(254, 587)">
+        <polygon points="0,4 8,9 8,18 0,13" fill="#7B42BC" />
+        <polygon points="10,9 18,14 18,23 10,18" fill="#844FBA" />
+        <polygon points="20,4 28,0 28,9 20,14" fill="#A855F7" />
+        <polygon points="10,20 18,25 18,34 10,29" fill="#7B42BC" />
+      </g>
       <text x="268" y="648" fill="#E2E8F0" font-weight="bold">Terraform</text>
 
+      <!-- 5. Git Vector -->
       <rect x="304" y="572" width="60" height="94" rx="10" fill="#0F172A" stroke="#F97316" stroke-width="1" />
-      <text x="334" y="612" font-size="22">🔀</text>
+      <g transform="translate(334, 604)">
+        <rect x="-11" y="-11" width="22" height="22" rx="4" transform="rotate(45)" fill="#F05032" />
+        <circle cx="-3" cy="-3" r="2.3" fill="#FFFFFF" />
+        <circle cx="4" cy="4" r="2.3" fill="#FFFFFF" />
+        <circle cx="-3" cy="5" r="2.3" fill="#FFFFFF" />
+        <line x1="-3" y1="-3" x2="-3" y2="5" stroke="#FFFFFF" stroke-width="2" />
+        <line x1="-3" y1="-3" x2="4" y2="4" stroke="#FFFFFF" stroke-width="2" />
+      </g>
       <text x="334" y="648" fill="#E2E8F0" font-weight="bold">Git</text>
 
+      <!-- 6. CI/CD Pipeline Vector -->
       <rect x="370" y="572" width="60" height="94" rx="10" fill="#0F172A" stroke="#EF4444" stroke-width="1" />
-      <text x="400" y="612" font-size="22">⚙️</text>
+      <g transform="translate(400, 604)">
+        <circle cx="-6" cy="0" r="6" fill="none" stroke="#EF4444" stroke-width="2.5" />
+        <circle cx="6" cy="0" r="6" fill="none" stroke="#F87171" stroke-width="2.5" />
+        <path d="M-2 -5 L2 -5 M-2 5 L2 5" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" />
+      </g>
       <text x="400" y="648" fill="#E2E8F0" font-weight="bold">CI/CD</text>
 
+      <!-- 7. Linux Terminal / Tux Vector -->
       <rect x="436" y="572" width="60" height="94" rx="10" fill="#0F172A" stroke="#10B981" stroke-width="1" />
-      <text x="466" y="612" font-size="22">🐧</text>
+      <g transform="translate(451, 590)">
+        <rect x="0" y="0" width="30" height="24" rx="4" fill="#064E3B" stroke="#10B981" stroke-width="2" />
+        <polyline points="7,8 13,12 7,16" fill="none" stroke="#34D399" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+        <line x1="15" y1="16" x2="22" y2="16" stroke="#34D399" stroke-width="2.2" stroke-linecap="round" />
+      </g>
       <text x="466" y="648" fill="#E2E8F0" font-weight="bold">Linux</text>
 
+      <!-- 8. React Atom Vector -->
       <rect x="502" y="572" width="54" height="94" rx="10" fill="#0F172A" stroke="#00F5D4" stroke-width="1" />
-      <text x="529" y="612" font-size="22">⚛️</text>
+      <g transform="translate(529, 604)">
+        <circle cx="0" cy="0" r="2.8" fill="#00F5D4" />
+        <ellipse cx="0" cy="0" rx="14" ry="5.5" fill="none" stroke="#00F5D4" stroke-width="1.6" />
+        <ellipse cx="0" cy="0" rx="14" ry="5.5" transform="rotate(60)" fill="none" stroke="#00F5D4" stroke-width="1.6" />
+        <ellipse cx="0" cy="0" rx="14" ry="5.5" transform="rotate(120)" fill="none" stroke="#00F5D4" stroke-width="1.6" />
+      </g>
       <text x="529" y="648" fill="#E2E8F0" font-weight="bold">React</text>
     </g>
   </g>
@@ -298,5 +349,5 @@
     <rect x="1024" y="647" width="115" height="6" rx="3" fill="#00F5D4" />
   </g>
 
-  <text x="600" y="705" text-anchor="middle" class="font-mono" fill="#64748B" font-size="10" letter-spacing="2">⚡ KEEP AUTOMATING • KEEP SCALING • KEEP DEPLOYING ⚡</text>
+  <text x="600" y="705" text-anchor="middle" class="font-mono" fill="#64748B" font-size="10" letter-spacing="2">KEEP AUTOMATING • KEEP SCALING • KEEP DEPLOYING</text>
 </svg>
