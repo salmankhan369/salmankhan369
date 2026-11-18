@@ -1,0 +1,302 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#070913" />
+      <stop offset="50%" stop-color="#0D1126" />
+      <stop offset="100%" stop-color="#080B18" />
+    </linearGradient>
+    <linearGradient id="neonBorder" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00F5D4" />
+      <stop offset="50%" stop-color="#7B2CBF" />
+      <stop offset="100%" stop-color="#FF2A85" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#131936" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0B0E20" stop-opacity="0.95" />
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="320" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#E0E7FF" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7B2CBF" stop-opacity="0.55" />
+      <stop offset="60%" stop-color="#00F5D4" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#070913" stop-opacity="0" />
+    </radialGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <style>
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .font-mono { font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace; }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.35; }
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-7px); }
+      }
+      @keyframes spinSlow {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes dashMove {
+        to { stroke-dashoffset: -40; }
+      }
+      .pulse { animation: pulse 2.2s infinite ease-in-out; }
+      .float { animation: float 4s infinite ease-in-out; }
+      .spin { transform-origin: 585px 315px; animation: spinSlow 24s linear infinite; }
+      .flow-line { stroke-dasharray: 6 6; animation: dashMove 1.8s linear infinite; }
+    </style>
+  </defs>
+
+  <rect x="4" y="4" width="1192" height="712" rx="22" fill="url(#bgGrad)" stroke="url(#neonBorder)" stroke-width="2.5" />
+
+  <g opacity="0.08" stroke="#38BDF8" stroke-width="1">
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="360" x2="1200" y2="360" />
+    <line x1="0" y1="480" x2="1200" y2="480" />
+    <line x1="0" y1="600" x2="1200" y2="600" />
+    <line x1="240" y1="0" x2="240" y2="720" />
+    <line x1="480" y1="0" x2="480" y2="720" />
+    <line x1="720" y1="0" x2="720" y2="720" />
+    <line x1="960" y1="0" x2="960" y2="720" />
+  </g>
+
+  <g class="font-mono">
+    <rect x="24" y="18" width="12" height="12" rx="3" fill="#00F5D4" />
+    <text x="44" y="29" fill="#E2E8F0" font-size="12" font-weight="bold">SYSTEM 2.0</text>
+    <text x="145" y="29" fill="#64748B" font-size="11">BUILD • DEPLOY • AUTOMATE</text>
+
+    <rect x="490" y="12" width="220" height="32" rx="16" fill="#131936" stroke="#7B2CBF" stroke-width="1.5" />
+    <text x="600" y="33" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold" letter-spacing="2">PORTFOLIO.OS</text>
+
+    <circle cx="945" cy="24" r="5" fill="#10B981" class="pulse" />
+    <text x="958" y="22" fill="#94A3B8" font-size="9">LIVE STATUS</text>
+    <text x="958" y="33" fill="#10B981" font-size="11" font-weight="bold">ONLINE</text>
+
+    <text x="1045" y="22" fill="#94A3B8" font-size="9">UPTIME</text>
+    <text x="1045" y="33" fill="#38BDF8" font-size="11" font-weight="bold">99.9%</text>
+
+    <rect x="1110" y="15" width="66" height="24" rx="12" fill="#1E293B" stroke="#38BDF8" stroke-width="1" />
+    <text x="1143" y="31" text-anchor="middle" fill="#38BDF8" font-size="10" font-weight="bold">EKS LIVE</text>
+  </g>
+
+  <line x1="20" y1="54" x2="1180" y2="54" stroke="#1E293B" stroke-width="1.5" />
+
+  <g>
+    <rect x="24" y="72" width="375" height="445" rx="18" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1.5" />
+    <text x="48" y="114" class="font-sans" fill="#94A3B8" font-size="17">Hello, I am 👋</text>
+    <text x="48" y="168" class="font-sans" fill="url(#nameGrad)" font-size="44" font-weight="900" letter-spacing="1">SALMAN</text>
+    <text x="48" y="216" class="font-sans" fill="url(#nameGrad)" font-size="44" font-weight="900" letter-spacing="1">KHAN</text>
+    <text x="48" y="246" class="font-mono" fill="#38BDF8" font-size="14" font-weight="bold" letter-spacing="1.5">DEVOPS + CLOUD ENGINEER</text>
+
+    <text x="48" y="282" class="font-sans" fill="#CBD5E1" font-size="14">I architect scalable AWS cloud infra</text>
+    <text x="48" y="303" class="font-sans" fill="#CBD5E1" font-size="14">+ zero-downtime <tspan fill="#F472B6" font-weight="bold">CI/CD</tspan> pipelines.</text>
+
+    <rect x="48" y="324" width="235" height="32" rx="16" fill="#0F172A" stroke="#00F5D4" stroke-width="1.2" />
+    <circle cx="66" cy="340" r="4.5" fill="#00F5D4" class="pulse" />
+    <text x="79" y="344" class="font-mono" fill="#E2E8F0" font-size="11" font-weight="bold">AVAILABLE FOR DEVOPS ROLES</text>
+
+    <rect x="44" y="376" width="335" height="122" rx="14" fill="#090D1E" stroke="#1E293B" stroke-width="1.2" />
+    <text x="60" y="398" class="font-mono" fill="#94A3B8" font-size="10" font-weight="bold" letter-spacing="1">STATS OVERVIEW</text>
+
+    <rect x="58" y="410" width="96" height="74" rx="10" fill="#111834" stroke="#7B2CBF" stroke-width="1" />
+    <text x="106" y="427" text-anchor="middle" class="font-mono" fill="#94A3B8" font-size="9">PROJECTS</text>
+    <text x="106" y="458" text-anchor="middle" class="font-sans" fill="#FFFFFF" font-size="24" font-weight="bold">18+</text>
+    <text x="106" y="475" text-anchor="middle" class="font-mono" fill="#A78BFA" font-size="9">DEPLOYED</text>
+
+    <rect x="164" y="410" width="96" height="74" rx="10" fill="#111834" stroke="#00F5D4" stroke-width="1" />
+    <text x="212" y="427" text-anchor="middle" class="font-mono" fill="#94A3B8" font-size="9">EXPERIENCE</text>
+    <text x="212" y="458" text-anchor="middle" class="font-sans" fill="#FFFFFF" font-size="24" font-weight="bold">4+</text>
+    <text x="212" y="475" text-anchor="middle" class="font-mono" fill="#00F5D4" font-size="9">YEARS</text>
+
+    <rect x="270" y="410" width="96" height="74" rx="10" fill="#111834" stroke="#FF2A85" stroke-width="1" />
+    <text x="318" y="427" text-anchor="middle" class="font-mono" fill="#94A3B8" font-size="9">TOOLS</text>
+    <text x="318" y="458" text-anchor="middle" class="font-sans" fill="#FFFFFF" font-size="24" font-weight="bold">15+</text>
+    <text x="318" y="475" text-anchor="middle" class="font-mono" fill="#F472B6" font-size="9">MASTERED</text>
+  </g>
+
+  <g>
+    <rect x="415" y="72" width="340" height="445" rx="18" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1.5" />
+    <circle cx="585" cy="300" r="155" fill="url(#coreGlow)" />
+
+    <circle cx="585" cy="315" r="125" fill="none" stroke="#38BDF8" stroke-width="1.2" stroke-dasharray="10 8" opacity="0.5" class="spin" />
+    <circle cx="585" cy="315" r="95" fill="none" stroke="#FF2A85" stroke-width="1" stroke-dasharray="4 6" opacity="0.6" />
+
+    <rect x="665" y="88" width="74" height="44" rx="10" fill="#0F172A" stroke="#38BDF8" stroke-width="1" />
+    <text x="702" y="106" text-anchor="middle" class="font-mono" fill="#38BDF8" font-size="10" font-weight="bold">CLUSTER</text>
+    <text x="702" y="123" text-anchor="middle" class="font-mono" fill="#FFFFFF" font-size="12" font-weight="bold">100%</text>
+
+    <g class="float">
+      <polygon points="585,220 655,260 655,340 585,380 515,340 515,260" fill="#0F172A" stroke="url(#neonBorder)" stroke-width="2.5" filter="url(#glow)" />
+      <text x="585" y="292" text-anchor="middle" class="font-mono" fill="#00F5D4" font-size="14" font-weight="bold">DEVOPS</text>
+      <text x="585" y="314" text-anchor="middle" class="font-sans" fill="#FFFFFF" font-size="18" font-weight="900">AUTOMATE</text>
+      <text x="585" y="334" text-anchor="middle" class="font-mono" fill="#F472B6" font-size="12" font-weight="bold">+ SCALE</text>
+
+      <rect x="440" y="175" width="84" height="28" rx="8" fill="#1E293B" stroke="#38BDF8" stroke-width="1.2" />
+      <text x="482" y="193" text-anchor="middle" class="font-mono" fill="#38BDF8" font-size="11" font-weight="bold">🐳 DOCKER</text>
+
+      <rect x="645" y="175" width="88" height="28" rx="8" fill="#1E293B" stroke="#818CF8" stroke-width="1.2" />
+      <text x="689" y="193" text-anchor="middle" class="font-mono" fill="#A5B4FC" font-size="11" font-weight="bold">☸️ K8S</text>
+
+      <rect x="435" y="405" width="88" height="28" rx="8" fill="#1E293B" stroke="#F59E0B" stroke-width="1.2" />
+      <text x="479" y="423" text-anchor="middle" class="font-mono" fill="#FBBF24" font-size="11" font-weight="bold">☁️ AWS</text>
+
+      <rect x="640" y="405" width="96" height="28" rx="8" fill="#1E293B" stroke="#A855F7" stroke-width="1.2" />
+      <text x="688" y="423" text-anchor="middle" class="font-mono" fill="#D8B4FE" font-size="11" font-weight="bold">⚙️ CI/CD</text>
+    </g>
+
+    <line x1="482" y1="203" x2="535" y2="245" stroke="#38BDF8" stroke-width="1.5" class="flow-line" />
+    <line x1="689" y1="203" x2="635" y2="245" stroke="#818CF8" stroke-width="1.5" class="flow-line" />
+    <line x1="479" y1="405" x2="535" y2="355" stroke="#F59E0B" stroke-width="1.5" class="flow-line" />
+    <line x1="688" y1="405" x2="635" y2="355" stroke="#A855F7" stroke-width="1.5" class="flow-line" />
+
+    <rect x="455" y="458" width="260" height="36" rx="10" fill="#090D1E" stroke="#334155" stroke-width="1" />
+    <text x="585" y="481" text-anchor="middle" class="font-mono" fill="#00F5D4" font-size="11">$ kubectl get pods -A --watch</text>
+  </g>
+
+  <g>
+    <rect x="771" y="72" width="405" height="445" rx="18" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1.5" />
+
+    <rect x="771" y="72" width="405" height="38" rx="18" fill="#0F152B" />
+    <circle cx="793" cy="91" r="5" fill="#EF4444" />
+    <circle cx="810" cy="91" r="5" fill="#F59E0B" />
+    <circle cx="827" cy="91" r="5" fill="#10B981" />
+    <text x="848" y="95" class="font-mono" fill="#E2E8F0" font-size="12" font-weight="bold">SalmanKhan.jsx</text>
+    <text x="1156" y="95" text-anchor="end" class="font-mono" fill="#64748B" font-size="11">JSX • DevOps</text>
+
+    <g class="font-mono" font-size="11.5">
+      <text x="790" y="135" fill="#475569">01</text>
+      <text x="818" y="135" fill="#F472B6">import <tspan fill="#E2E8F0">{ AWS, K8s, Docker }</tspan> from <tspan fill="#34D399">'cloud'</tspan>;</text>
+
+      <text x="790" y="158" fill="#475569">02</text>
+      <text x="818" y="158" fill="#F472B6">import <tspan fill="#E2E8F0">{ Terraform, Git }</tspan> from <tspan fill="#34D399">'devops-iac'</tspan>;</text>
+
+      <text x="790" y="181" fill="#475569">03</text>
+
+      <text x="790" y="204" fill="#475569">04</text>
+      <text x="818" y="204" fill="#38BDF8">const <tspan fill="#FBBF24">SalmanKhan</tspan> = () => {</text>
+
+      <text x="790" y="227" fill="#475569">05</text>
+      <text x="834" y="227" fill="#F472B6">return <tspan fill="#E2E8F0">(</tspan></text>
+
+      <text x="790" y="250" fill="#475569">06</text>
+      <text x="850" y="250" fill="#38BDF8">[CloudInfra <tspan fill="#A78BFA">role</tspan>=<tspan fill="#34D399">"DevOps Engineer"</tspan>]</text>
+
+      <text x="790" y="273" fill="#475569">07</text>
+      <text x="866" y="273" fill="#38BDF8">[Pipeline]</text>
+
+      <text x="790" y="296" fill="#475569">08</text>
+      <text x="882" y="296" fill="#CBD5E1">Automating AWS + EKS clusters</text>
+
+      <text x="790" y="319" fill="#475569">09</text>
+      <text x="882" y="319" fill="#CBD5E1">with GitOps + zero downtime</text>
+
+      <text x="790" y="342" fill="#475569">10</text>
+      <text x="866" y="342" fill="#38BDF8">[/Pipeline]</text>
+
+      <text x="790" y="365" fill="#475569">11</text>
+      <text x="866" y="365" fill="#38BDF8">[Stack <tspan fill="#A78BFA">exp</tspan>=<tspan fill="#FBBF24">"4+ Yrs"</tspan> <tspan fill="#A78BFA">apps</tspan>=<tspan fill="#FBBF24">"18+"</tspan> /]</text>
+
+      <text x="790" y="388" fill="#475569">12</text>
+      <text x="850" y="388" fill="#38BDF8">[/CloudInfra]</text>
+
+      <text x="790" y="411" fill="#475569">13</text>
+      <text x="834" y="411" fill="#E2E8F0">);</text>
+
+      <text x="790" y="434" fill="#475569">14</text>
+      <text x="818" y="434" fill="#E2E8F0">};</text>
+
+      <text x="790" y="457" fill="#475569">15</text>
+      <text x="818" y="457" fill="#F472B6">export default <tspan fill="#FBBF24">SalmanKhan</tspan>;</text>
+    </g>
+
+    <line x1="771" y1="478" x2="1176" y2="478" stroke="#1E293B" stroke-width="1" />
+    <text x="792" y="502" class="font-mono" fill="#10B981" font-size="11.5">✓ ArgoCD synced + deployed in 0.28s</text>
+    <text x="1156" y="502" text-anchor="end" class="font-mono" fill="#64748B" font-size="10">TERMINAL</text>
+  </g>
+
+  <g>
+    <rect x="24" y="532" width="545" height="152" rx="18" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1.5" />
+    <text x="44" y="558" class="font-mono" fill="#94A3B8" font-size="11" font-weight="bold" letter-spacing="1">TECHNOLOGIES I WORK WITH</text>
+
+    <g class="font-mono" font-size="9.5" text-anchor="middle">
+      <rect x="40" y="572" width="60" height="94" rx="10" fill="#0F172A" stroke="#38BDF8" stroke-width="1" />
+      <text x="70" y="612" font-size="22">🐳</text>
+      <text x="70" y="648" fill="#E2E8F0" font-weight="bold">Docker</text>
+
+      <rect x="106" y="572" width="60" height="94" rx="10" fill="#0F172A" stroke="#6366F1" stroke-width="1" />
+      <text x="136" y="612" font-size="22">☸️</text>
+      <text x="136" y="648" fill="#E2E8F0" font-weight="bold">K8s</text>
+
+      <rect x="172" y="572" width="60" height="94" rx="10" fill="#0F172A" stroke="#F59E0B" stroke-width="1" />
+      <text x="202" y="612" font-size="22">☁️</text>
+      <text x="202" y="648" fill="#E2E8F0" font-weight="bold">AWS</text>
+
+      <rect x="238" y="572" width="60" height="94" rx="10" fill="#0F172A" stroke="#A855F7" stroke-width="1" />
+      <text x="268" y="612" font-size="22">🏗️</text>
+      <text x="268" y="648" fill="#E2E8F0" font-weight="bold">Terraform</text>
+
+      <rect x="304" y="572" width="60" height="94" rx="10" fill="#0F172A" stroke="#F97316" stroke-width="1" />
+      <text x="334" y="612" font-size="22">🔀</text>
+      <text x="334" y="648" fill="#E2E8F0" font-weight="bold">Git</text>
+
+      <rect x="370" y="572" width="60" height="94" rx="10" fill="#0F172A" stroke="#EF4444" stroke-width="1" />
+      <text x="400" y="612" font-size="22">⚙️</text>
+      <text x="400" y="648" fill="#E2E8F0" font-weight="bold">CI/CD</text>
+
+      <rect x="436" y="572" width="60" height="94" rx="10" fill="#0F172A" stroke="#10B981" stroke-width="1" />
+      <text x="466" y="612" font-size="22">🐧</text>
+      <text x="466" y="648" fill="#E2E8F0" font-weight="bold">Linux</text>
+
+      <rect x="502" y="572" width="54" height="94" rx="10" fill="#0F172A" stroke="#00F5D4" stroke-width="1" />
+      <text x="529" y="612" font-size="22">⚛️</text>
+      <text x="529" y="648" fill="#E2E8F0" font-weight="bold">React</text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="583" y="532" width="172" height="152" rx="18" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1.5" />
+    <text x="600" y="556" class="font-mono" fill="#94A3B8" font-size="10" font-weight="bold">SYSTEM RESOURCES</text>
+
+    <circle cx="645" cy="618" r="34" fill="none" stroke="#1E293B" stroke-width="7" />
+    <circle cx="645" cy="618" r="34" fill="none" stroke="#00F5D4" stroke-width="7" stroke-dasharray="120 220" stroke-linecap="round" />
+    <text x="645" y="623" text-anchor="middle" class="font-sans" fill="#FFFFFF" font-size="15" font-weight="bold">42%</text>
+
+    <text x="695" y="604" class="font-mono" fill="#94A3B8" font-size="10">EKS: <tspan fill="#00F5D4" font-weight="bold">OK</tspan></text>
+    <text x="695" y="622" class="font-mono" fill="#94A3B8" font-size="10">POD: <tspan fill="#38BDF8" font-weight="bold">24</tspan></text>
+    <text x="695" y="640" class="font-mono" fill="#94A3B8" font-size="10">CPU: <tspan fill="#F472B6" font-weight="bold">LOW</tspan></text>
+  </g>
+
+  <g>
+    <rect x="769" y="532" width="407" height="152" rx="18" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1.5" />
+
+    <rect x="785" y="548" width="215" height="120" rx="12" fill="#0F172A" stroke="#7B2CBF" stroke-width="1" />
+    <text x="800" y="576" class="font-sans" fill="#F472B6" font-size="18" font-weight="bold">“</text>
+    <text x="800" y="596" class="font-sans" fill="#E2E8F0" font-size="12" font-weight="bold">Cloud is my canvas,</text>
+    <text x="800" y="616" class="font-sans" fill="#E2E8F0" font-size="12" font-weight="bold">automation is my craft.</text>
+    <text x="800" y="646" class="font-mono" fill="#38BDF8" font-size="10">— Salman Khan</text>
+
+    <rect x="1012" y="548" width="148" height="120" rx="12" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+    <text x="1024" y="568" class="font-mono" fill="#94A3B8" font-size="9.5" font-weight="bold">DEPLOY METRICS</text>
+
+    <text x="1024" y="590" class="font-mono" fill="#CBD5E1" font-size="9">Docker Build</text>
+    <rect x="1024" y="595" width="120" height="6" rx="3" fill="#1E293B" />
+    <rect x="1024" y="595" width="108" height="6" rx="3" fill="#38BDF8" />
+
+    <text x="1024" y="616" class="font-mono" fill="#CBD5E1" font-size="9">Terraform Apply</text>
+    <rect x="1024" y="621" width="120" height="6" rx="3" fill="#1E293B" />
+    <rect x="1024" y="621" width="96" height="6" rx="3" fill="#A855F7" />
+
+    <text x="1024" y="642" class="font-mono" fill="#CBD5E1" font-size="9">ArgoCD Sync</text>
+    <rect x="1024" y="647" width="120" height="6" rx="3" fill="#1E293B" />
+    <rect x="1024" y="647" width="115" height="6" rx="3" fill="#00F5D4" />
+  </g>
+
+  <text x="600" y="705" text-anchor="middle" class="font-mono" fill="#64748B" font-size="10" letter-spacing="2">⚡ KEEP AUTOMATING • KEEP SCALING • KEEP DEPLOYING ⚡</text>
+</svg>
